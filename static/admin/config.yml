@@ -6,8 +6,8 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "employee category"
-    label: "Employee Category"
+  - name: "categories"
+    label: "Categories"
     folder: "src/pages/categories"
     create: true
     fields:
