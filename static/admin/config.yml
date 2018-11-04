@@ -6,6 +6,15 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "employee category"
+    label: "Employee Category"
+    folder: "src/pages/categories"
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "employee-category"}
+      - {label: "Category Name", name: "category name", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+    
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
